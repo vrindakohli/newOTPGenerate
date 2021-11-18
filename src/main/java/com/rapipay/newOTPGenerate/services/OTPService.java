@@ -9,7 +9,10 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.event.EventListener;
 import org.springframework.http.ResponseEntity;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 import com.google.common.base.Strings;
@@ -35,6 +38,9 @@ public class OTPService implements OTPServiceInterface {
 	
 	@Autowired
 	private OtpDao otpDao;
+	
+	@Autowired
+	private JavaMailSender sender;
 
 	@Override
 	public String generateOTP() {
@@ -48,7 +54,8 @@ public class OTPService implements OTPServiceInterface {
 	@Override
 	public OTPEntities addData(OTPEntities otpEntities) throws InvalidEmail, InvalidMobile, InvalidChannel, ReGenerateOTP, NullValueException {
 
-		
+		otpEntities.setOtp(generateOTP());
+
 		
 		// to ensure otp is not generated before x minute
 		OTPEntities oe = otpDao.findById(otpEntities.getUser_id()).orElse(null);
@@ -72,6 +79,11 @@ public class OTPService implements OTPServiceInterface {
 			{
 				throw new InvalidEmail();
 			}
+			else {
+				System.out.println(otpEntities.getUser_id());
+				sendEmail(otpEntities.getUser_id(), "otp is: "+ otpEntities.getOtp(), "otp");
+
+			}
 
 		} else if (otpEntities.getChannelName().equalsIgnoreCase("sms")) {
 			if (!otpEntities.getUser_id().matches("[0-9]+")) {
@@ -89,7 +101,8 @@ public class OTPService implements OTPServiceInterface {
 		
 		
 		
-		otpEntities.setOtp(generateOTP());
+		
+
 		System.out.println(otpEntities.getOtp());
 		otpEntities.setTimeStamp();
 		otpDao.save(otpEntities);
@@ -108,6 +121,7 @@ public class OTPService implements OTPServiceInterface {
 		// System.out.println(otpEntities);
 		if ((ts - otpEntities.getTimeStamp()) / 60000 < y) {
 			if (otp.equals(otpEntities.getOtp())) {
+				System.out.println("otp verified correctly");
 				return ResponseEntity.ok().body(otpEntities);
 			} else {
 				throw new InvalidOTPException();
@@ -126,6 +140,21 @@ public class OTPService implements OTPServiceInterface {
 			return false;
 		}
 		return true;
+	}
+	
+	public void sendEmail(String toEmail, String body, String subject) {
+		SimpleMailMessage simpleMessage=new SimpleMailMessage();
+		simpleMessage.setFrom("vrindakohli0909@gmail.com");
+		simpleMessage.setTo(toEmail);
+		simpleMessage.setText(body);
+		simpleMessage.setSubject(subject);
+		
+		sender.send(simpleMessage);
+		System.out.println("mail sent");
+		
+		
+		
+		
 	}
 
 }
