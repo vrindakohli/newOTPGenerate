@@ -9,19 +9,24 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import com.sun.istack.NotNull;
+
 import lombok.Data;
 
 @Data
 @Entity
 public class OTPEntities {
 	@Id
+	@NotNull
 	//@GeneratedValue(strategy = GenerationType.AUTO)
 	private String user_id;
 
-
+	@NotNull
 	private long order_id;
 
+	@NotNull
 	private String channelName;
+	
 	private String otp;
 	private long timeStamp;
 	public OTPEntities() {

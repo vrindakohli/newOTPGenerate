@@ -27,13 +27,14 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- for dto. for using @data annotation and MAPMAKER -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
 
-
+		<!-- for logger -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -71,11 +72,14 @@
 			<version>2.9.2</version>
 		</dependency>
 
+		<!-- swagger annotations for commenting in swagger -->
 		<dependency>
 			<groupId>io.swagger</groupId>
 			<artifactId>swagger-annotations</artifactId>
 			<version>1.5.0</version>
 		</dependency>
+
+		<!-- for testing -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -99,6 +103,12 @@
 			<artifactId>modelmapper</artifactId>
 			<version>2.3.5</version>
 		</dependency>
+		<!-- for validation -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
