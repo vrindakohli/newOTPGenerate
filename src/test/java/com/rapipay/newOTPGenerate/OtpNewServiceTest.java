@@ -40,25 +40,25 @@ public class OtpNewServiceTest {
 
 	
 	@Test
-	public void testGenerate() {
+	public void testGenerate() throws Exception {
 		
 		
-//		try {
-//			assertEquals(otp1.getUser_id(), otpService.addData(otp1));
-//			Assertions.assertThrows(Exception.class, ()->{
-//				dao.save(otp2);
-//			});
-//			assertEquals(otp2.getUser_id(), otpService.addData(otp1));
-//			Assertions.assertThrows(InvalidEmail.class, ()->
-//			{
-//				otpService.addData(otp2);
-//			});
-//			assertEquals(otp3.getUser_id(), otpService.addData(otp1));
-//
-//			Assertions.assertThrows(InvalidMobile.class, ()->{
-//				otpService.addData(otp3);
-//			});
-//			
+		try {
+			assertEquals(otp1.getUser_id(), otpService.addData(otp1));
+			Assertions.assertThrows(Exception.class, ()->{
+				dao.save(otp2);
+			});
+			assertEquals(otp2.getUser_id(), otpService.addData(otp1));
+			Assertions.assertThrows(InvalidEmail.class, ()->
+			{
+				otpService.addData(otp2);
+			});
+			assertEquals(otp3.getUser_id(), otpService.addData(otp1));
+
+			Assertions.assertThrows(InvalidMobile.class, ()->{
+				otpService.addData(otp3);
+			});
+			
 			//assertEquals(otp4.getUser_id(), otpService.addData(otp1));
 			Assertions.assertThrows(Exception.class, ()->{
 				otpService.addData(otp4);
@@ -66,9 +66,11 @@ public class OtpNewServiceTest {
 			
 			
 		}
-//		catch (Exception e) {
-//			// TODO: handle exception
-//		}
+		catch (Exception e) {
+			throw e;
+		}
+			// TODO: handle exception
+		}
 		
 	
 	
@@ -191,8 +193,4 @@ public class OtpNewServiceTest {
 	}
 	
 	
-	
-	
-
-
 }

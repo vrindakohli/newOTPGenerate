@@ -15,7 +15,7 @@ import com.rapipay.newOTPGenerate.exception.TimeStampExceededException;
 public interface OTPServiceInterface {
 	public String generateOTP();
 	public OTPEntities addData(OTPEntities otpEntities) throws InvalidEmail, InvalidMobile, InvalidChannel, ReGenerateOTP, NullValueException;
-	public ResponseEntity<OTPEntities> validateOtp(String uId, String otp) throws NoUserException, InvalidOTPException, TimeStampExceededException;
+	public OTPEntities validateOtp(String uId, String otp) throws NoUserException, InvalidOTPException, TimeStampExceededException;
 	
 
 }

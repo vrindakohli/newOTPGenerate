@@ -1,0 +1,164 @@
+2021-11-23 22:54:59 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Started NewOtpGenerateApplication in 5.694 seconds (JVM running for 6.52)
+2021-11-23 22:55:22 [https-jsse-nio-8443-exec-9] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-23 22:55:22 [https-jsse-nio-8443-exec-9] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 22:55:22 [https-jsse-nio-8443-exec-9] INFO  com.rapipay.newOTPGenerate.services.OTPService - entries saved
+2021-11-23 23:16:38 [RMI TCP Connection(26)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-23 23:16:38 [RMI TCP Connection(26)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-23 23:16:43 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Starting NewOtpGenerateApplication using Java 15.0.2 on DESKTOP-T6L26UM with PID 28956 (C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate\target\classes started by DELL in C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate)
+2021-11-23 23:16:43 [main] DEBUG com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-23 23:16:43 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - No active profile set, falling back to default profiles: default
+2021-11-23 23:16:44 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-23 23:16:44 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-23 23:16:44 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-23 23:16:44 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-23 23:16:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-23 23:16:45 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-23 23:16:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-23 23:16:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-23 23:16:45 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-23 23:16:46 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-23 23:16:46 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-23 23:16:47 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-23 23:16:47 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-23 23:16:47 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-23 23:16:47 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Started NewOtpGenerateApplication in 4.662 seconds (JVM running for 5.42)
+2021-11-23 23:16:52 [https-jsse-nio-8443-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-23 23:18:02 [https-jsse-nio-8443-exec-4] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:18:03 [https-jsse-nio-8443-exec-4] ERROR com.rapipay.newOTPGenerate.services.OTPService - order id is null. entered order id is: 0
+2021-11-23 23:21:45 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-23 23:21:45 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-23 23:21:50 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Starting NewOtpGenerateApplication using Java 15.0.2 on DESKTOP-T6L26UM with PID 21132 (C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate\target\classes started by DELL in C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate)
+2021-11-23 23:21:50 [main] DEBUG com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-23 23:21:50 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - No active profile set, falling back to default profiles: default
+2021-11-23 23:21:51 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-23 23:21:51 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-23 23:21:51 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-23 23:21:51 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-23 23:21:51 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-23 23:21:52 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-23 23:21:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-23 23:21:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-23 23:21:52 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-23 23:21:53 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-23 23:21:54 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-23 23:21:54 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-23 23:21:54 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-23 23:21:54 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-23 23:21:54 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Started NewOtpGenerateApplication in 4.89 seconds (JVM running for 5.615)
+2021-11-23 23:21:57 [https-jsse-nio-8443-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-23 23:27:20 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-23 23:27:20 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-23 23:27:25 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Starting NewOtpGenerateApplication using Java 15.0.2 on DESKTOP-T6L26UM with PID 34048 (C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate\target\classes started by DELL in C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate)
+2021-11-23 23:27:25 [main] DEBUG com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-23 23:27:25 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - No active profile set, falling back to default profiles: default
+2021-11-23 23:27:26 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-23 23:27:26 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-23 23:27:26 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-23 23:27:26 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-23 23:27:26 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-23 23:27:26 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-23 23:27:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-23 23:27:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-23 23:27:27 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-23 23:27:27 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-23 23:27:28 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-23 23:27:28 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-23 23:27:28 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-23 23:27:28 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-23 23:27:28 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Started NewOtpGenerateApplication in 3.798 seconds (JVM running for 4.516)
+2021-11-23 23:27:33 [https-jsse-nio-8443-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-23 23:28:14 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-23 23:28:14 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-23 23:28:18 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Starting NewOtpGenerateApplication using Java 15.0.2 on DESKTOP-T6L26UM with PID 41432 (C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate\target\classes started by DELL in C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate)
+2021-11-23 23:28:18 [main] DEBUG com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-23 23:28:18 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - No active profile set, falling back to default profiles: default
+2021-11-23 23:28:19 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-23 23:28:19 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-23 23:28:19 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-23 23:28:19 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-23 23:28:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-23 23:28:20 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-23 23:28:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-23 23:28:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-23 23:28:20 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-23 23:28:20 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-23 23:28:21 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-23 23:28:21 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-23 23:28:21 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-23 23:28:21 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-23 23:28:21 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Started NewOtpGenerateApplication in 3.43 seconds (JVM running for 4.157)
+2021-11-23 23:28:25 [https-jsse-nio-8443-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-23 23:30:13 [https-jsse-nio-8443-exec-9] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:30:13 [https-jsse-nio-8443-exec-9] ERROR com.rapipay.newOTPGenerate.services.OTPService - order id is null. entered order id is: 0
+2021-11-23 23:30:26 [https-jsse-nio-8443-exec-10] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:30:26 [https-jsse-nio-8443-exec-10] INFO  com.rapipay.newOTPGenerate.services.OTPService - entries saved
+2021-11-23 23:33:26 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-23 23:33:27 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-23 23:33:32 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Starting NewOtpGenerateApplication using Java 15.0.2 on DESKTOP-T6L26UM with PID 15396 (C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate\target\classes started by DELL in C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate)
+2021-11-23 23:33:32 [main] DEBUG com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-23 23:33:32 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - No active profile set, falling back to default profiles: default
+2021-11-23 23:33:33 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-23 23:33:33 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-23 23:33:33 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-23 23:33:33 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-23 23:33:33 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-23 23:33:33 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-23 23:33:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-23 23:33:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-23 23:33:34 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-23 23:33:34 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-23 23:33:35 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-23 23:33:35 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-23 23:33:35 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-23 23:33:35 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-23 23:33:35 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplication - Started NewOtpGenerateApplication in 4.321 seconds (JVM running for 5.032)
+2021-11-23 23:33:39 [https-jsse-nio-8443-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-23 23:34:08 [https-jsse-nio-8443-exec-9] INFO  com.rapipay.newOTPGenerate.services.OTPService - entered validate otp section
+2021-11-23 23:34:08 [https-jsse-nio-8443-exec-9] INFO  com.rapipay.newOTPGenerate.services.OTPService - otp verified succesfully
+2021-11-23 23:36:01 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplicationTests - Starting NewOtpGenerateApplicationTests using Java 15.0.2 on DESKTOP-T6L26UM with PID 21444 (started by DELL in C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate)
+2021-11-23 23:36:01 [main] DEBUG com.rapipay.newOTPGenerate.NewOtpGenerateApplicationTests - Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-23 23:36:01 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-23 23:36:03 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-23 23:36:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-23 23:36:04 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-23 23:36:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-23 23:36:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-23 23:36:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-23 23:36:05 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-23 23:36:07 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-23 23:36:07 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-23 23:36:07 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-23 23:36:07 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-23 23:36:08 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplicationTests - Started NewOtpGenerateApplicationTests in 7.09 seconds (JVM running for 9.903)
+2021-11-23 23:36:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:36:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:36:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:36:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:36:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:36:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-23 23:36:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-23 23:38:02 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplicationTests - Starting NewOtpGenerateApplicationTests using Java 15.0.2 on DESKTOP-T6L26UM with PID 30356 (started by DELL in C:\Users\DELL\Downloads\newOTPGenerate\newOTPGenerate)
+2021-11-23 23:38:02 [main] DEBUG com.rapipay.newOTPGenerate.NewOtpGenerateApplicationTests - Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-23 23:38:02 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-23 23:38:04 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-23 23:38:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-23 23:38:04 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-23 23:38:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-23 23:38:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-23 23:38:05 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-23 23:38:06 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-23 23:38:07 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-23 23:38:08 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-23 23:38:08 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-23 23:38:08 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-23 23:38:08 [main] INFO  com.rapipay.newOTPGenerate.NewOtpGenerateApplicationTests - Started NewOtpGenerateApplicationTests in 7.035 seconds (JVM running for 9.699)
+2021-11-23 23:38:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:38:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:38:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:38:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:38:08 [main] INFO  com.rapipay.newOTPGenerate.services.OTPService - Entered generate otp section
+2021-11-23 23:38:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-23 23:38:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-23 23:41:48 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s83ms345µs300ns).
+2021-11-24 08:06:30 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h24m49s508ms636µs900ns).
+2021-11-24 08:09:57 [RMI TCP Connection(12)-127.0.0.1] WARN  javax.management.remote.misc - The server has decided to close this client connection.

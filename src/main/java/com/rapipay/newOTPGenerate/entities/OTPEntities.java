@@ -9,12 +9,15 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import lombok.Data;
 
+@Data
 @Entity
 public class OTPEntities {
 	@Id
 	//@GeneratedValue(strategy = GenerationType.AUTO)
 	private String user_id;
+
 
 	private long order_id;
 
